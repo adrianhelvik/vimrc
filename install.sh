@@ -7,4 +7,7 @@ ln vimrc ~/.vimrc
 
 vim +PlugInstall +qall
 
-
+# Compile Command-T
+cd ~/.vim/plugged/command-t/ruby/command-t
+ruby extconf.rb
+make
